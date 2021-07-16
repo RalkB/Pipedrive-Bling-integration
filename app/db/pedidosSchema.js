@@ -1,5 +1,6 @@
 const { Schema } = require("mongoose");
 
+// schema of the bling data
 const pedidosSchema = new Schema({
     numero: Number,
     data: Date,

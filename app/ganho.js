@@ -35,6 +35,7 @@ class Ganho {
         }
     }
 
+    //get the bling xml to insert the data into the bling platform
     async getBlingXML(pipedriveReturn)
     {
         let xml = xmlbuilder.create("pedido");
@@ -86,6 +87,7 @@ class Ganho {
         return xml.toString();
     }
 
+    // get all deals of the pipedrive plataform
     async getGanhosProdutos(pipedriveDeal)
     {
         const productsUrl = pipedriveBaseUrl + "/v1/deals/" + pipedriveDeal + "/products?api_token=" + this.api_token;

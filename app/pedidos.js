@@ -3,6 +3,7 @@ const axios = require("axios");
 const pedidosSchema = require("./db/pedidosSchema");
 const mongoose = require("mongoose");
 
+// class that get the bling data and insert into the mongodb base
 class Pedidos {
     constructor()
     {

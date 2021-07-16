@@ -1,3 +1,5 @@
+// all endpoints of the api
+
 const express = require("express");
 const routes = express.Router();
 const ganho = require("./app/ganho");

@@ -2,6 +2,7 @@ const express = require("express");
 const db = require("./config");
 const mongoose = require("mongoose");
 
+// Server start and configuration
 class App {
     constructor() 
     {
