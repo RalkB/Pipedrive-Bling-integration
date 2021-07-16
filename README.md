@@ -14,7 +14,8 @@ Para inserir pedidos no bling é necessario que você tenha adicionado algum gan
 ### Rotas GET
 
 #### /ganho
-Use a url http://localhost:3001/ganho para inserir os ganhos do pipdrive como pedidos no Bling. Utilize os parametro pipedrive_api_token e bling_api_key para integrar as duas ferramentas.
+Use a url http://localhost:3001/ganho para inserir os ganhos do pipdrive como pedidos no Bling. Utilize os parametro na url, pipedrive_api_token e bling_api_key para integrar as duas ferramentas.
+ex: http://localhost:3001/ganho?pipedrive_api_token=#sua_api_token_do_pipedrive&bling_api_key=sua_key_de_usuario_api_do_bling
 
 * pipedrive_api_token: seu token de autentificação da api do pipedrive.
 * bling_api_key: sua key de autentificação do Usuario tipo api do Bling.
