@@ -1,0 +1,36 @@
+{
+  "name": "pipedrive-bling-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "develop": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RalkB/Pipedrive-Bling-integration.git"
+  },
+  "keywords": [
+    "pipedrive",
+    "bling",
+    "node",
+    "js",
+    "express"
+  ],
+  "author": "Guilherme Cordeiro de Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RalkB/Pipedrive-Bling-integration/issues"
+  },
+  "homepage": "https://github.com/RalkB/Pipedrive-Bling-integration#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "xmlbuilder": "^15.1.1"
+  }
+}
